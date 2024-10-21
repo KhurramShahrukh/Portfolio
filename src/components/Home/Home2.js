@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import myPhoto from "../../Assets/photo.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,8 +20,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and I can say I have learnt
+              something.
               <br />
               <br />I am fluent in
               <i>
@@ -50,7 +51,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myPhoto} style={{borderRadius: '50%'}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
