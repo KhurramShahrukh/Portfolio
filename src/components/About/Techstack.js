@@ -16,7 +16,9 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiStyledcomponents
 } from "react-icons/si";
+import { MdCss } from "react-icons/md";
 import { TbBrandGolang } from "react-icons/tb";
 import { TbBrandTypescript } from "react-icons/tb";
 
@@ -46,6 +48,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <MdCss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStyledcomponents />
       </Col>
     </Row>
   );
