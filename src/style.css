@@ -588,9 +588,10 @@ button:focus {
 }
 
 .about-activity {
-  list-style: none !important;
+  /* list-style: none !important;
   text-align: left !important;
-  padding-left: 1px !important;
+  padding-left: 1px !important; */
+  text-align: start;
 }
 
 @media (max-width: 767px) {
